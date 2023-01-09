@@ -1,0 +1,84 @@
+body{
+    background: hsl(216, 12%, 8%);
+
+    display: grid;
+    justify-items: center;
+
+    margin-top: 12rem;
+    text-align: center;
+
+    font-family: Inter;
+    font-size: 15px;
+}
+
+.contander{
+    text-align: left;
+
+    padding-left: 1rem;
+
+    width: 22rem;
+
+    border-radius: 0.75rem;
+
+    background-color: hsl(213, 19%, 18%);
+}
+
+
+.title{
+    color: hsl(0, 0%, 100%);
+
+    font-size: 1.15rem;
+    font-weight: 700;
+
+}
+
+.text{
+    color:hsl(216, 12%, 54%);
+
+    font-size: 0.85rem;
+    font-weight: 400;
+}
+
+.star{
+    height: 2rem;
+    width: 2rem;
+
+    border-radius: 1rem;
+
+    margin-top: 1.5rem;
+
+    background: hsl(212, 16%, 32%);
+}
+
+.btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+    height: 2rem;
+    width: 2rem;
+
+    font-size: 17px;
+    font-family: Inter;
+
+    margin: 1rem;
+
+    border: 0;
+    border-radius: 2rem;
+
+    color: hsl(0, 0%, 100%);
+    background: hsl(212, 16%, 32%);
+}
+
+.btn{
+    width: 96%;
+    height: 2rem;
+
+    font-family: Inter;
+    font-weight: 700;
+
+    margin-bottom: 1rem;
+
+    border: 0;
+    border-radius: 2rem;
+
+    color:  hsl(25, 97%, 53%);
+}
+
+
