@@ -82,7 +82,7 @@ body{
 }
 
 
-@media only screen and (max-width: 395px) {
+@media only screen and (max-width: 389px) {
 
     .contander{
         width: 90%;
@@ -128,7 +128,7 @@ body{
 @media only screen and (max-width: 319px){
 
     .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
-        margin: 0.25rem;
+        margin: 0.3rem;
     }
 }
 
