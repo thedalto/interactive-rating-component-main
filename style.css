@@ -82,7 +82,7 @@ body{
 }
 
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 395px) {
 
     .contander{
         width: 90%;
@@ -101,13 +101,40 @@ body{
     }
 }
 
-@media only screen and (max-width: 365px){
+@media only screen and (max-width: 372px){
 
     .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
-        height: 2.2rem;
-        width: 2.2rem;
-        margin: 0.25rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        margin: 0.55rem;
     }
     
 }
 
+@media only screen and (max-width: 354px){
+
+    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+        margin: 0.45rem;
+    }
+}
+
+@media only screen and (max-width: 336px){
+
+    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+        margin: 0.35rem;
+    }
+}
+
+@media only screen and (max-width: 319px){
+
+    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+        margin: 0.25rem;
+    }
+}
+
+@media only screen and (max-width: 301px){
+
+    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+        margin: 0.1rem;
+    }
+}
