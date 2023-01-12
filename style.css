@@ -1,6 +1,4 @@
 body{
-    background: hsl(216, 12%, 8%);
-
     display: grid;
     justify-items: center;
 
@@ -8,33 +6,18 @@ body{
 
     font-family: Inter;
     font-size: 15px;
+
+    background: hsl(216, 12%, 8%);
 }
 
 .contander{
+    width: 22rem;
 
     padding-left: 1rem;
-
-    width: 22rem;
 
     border-radius: 0.75rem;
 
     background-color: hsl(213, 19%, 18%);
-}
-
-
-.title{
-    color: hsl(0, 0%, 100%);
-
-    font-size: 1.15rem;
-    font-weight: 700;
-
-}
-
-.text{
-    color:hsl(216, 12%, 54%);
-
-    font-size: 0.85rem;
-    font-weight: 400;
 }
 
 .star{
@@ -42,7 +25,6 @@ body{
     width: 1.063rem;
 
     margin-top: 1.5rem;
-
     padding: 0.55rem;
 
     border-radius: 2rem;
@@ -50,33 +32,64 @@ body{
     background:  hsl(212, 16%, 32%);
 }
 
-.btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+.title{
+    font-size: 1.15rem;
+    font-weight: 700;
+
+    color: hsl(0, 0%, 100%);
+}
+
+.text{
+    font-size: 0.85rem;
+    font-weight: 400;
+
+    color:hsl(216, 12%, 54%);
+}
+
+
+.btn1, .btn2, .btn3, .btn4, .btn5{
     height: 3rem;
     width: 3rem;
-
-    font-size: 1.063rem;
-    font-family: Inter;
-
-    margin: 0.5rem;
 
     border: 0;
     border-radius: 2rem;
 
+    margin: 0.5rem;
+
+    font-size: 1.063rem;
+    font-family: Inter;
+
+    cursor: pointer;
+
     color: hsl(216, 12%, 54%);
     background: hsl(212, 16%, 32%);
+}
+
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover{
+    transition: 0.2s;
+    
+    background: hsl(25, 97%, 53%);
+
+}
+
+.btn1:disabled, .btn2:disabled, .btn3:disabled, .btn4:disabled, .btn5:disabled{
+    opacity: 0.4;
+    cursor: default;
 }
 
 .btn{
     width: 96%;
     height: 2rem;
 
-    font-family: Inter;
-    font-weight: 700;
+    border: 0;
+    border-radius: 2rem;
 
     margin: 1rem 0rem;
 
-    border: 0;
-    border-radius: 2rem;
+    font-family: Inter;
+    font-weight: 700;
+
+    cursor: pointer;
 
     color:  hsl(25, 97%, 53%);
 }
@@ -90,7 +103,7 @@ body{
         padding: 1rem;
     }
 
-    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+    .btn1, .btn2, .btn3, .btn4, .btn5{
         width: 2.8rem;
         height: 2.8rem;
     }
@@ -103,7 +116,7 @@ body{
 
 @media only screen and (max-width: 372px){
 
-    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+    .btn1, .btn2, .btn3, .btn4, .btn5{
         height: 2.5rem;
         width: 2.5rem;
         margin: 0.55rem;
@@ -113,28 +126,28 @@ body{
 
 @media only screen and (max-width: 354px){
 
-    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+    .btn1, .btn2, .btn3, .btn4, .btn5{
         margin: 0.45rem;
     }
 }
 
 @media only screen and (max-width: 336px){
 
-    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+    .btn1, .btn2, .btn3, .btn4, .btn5{
         margin: 0.35rem;
     }
 }
 
 @media only screen and (max-width: 319px){
 
-    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+    .btn1, .btn2, .btn3, .btn4, .btn5{
         margin: 0.3rem;
     }
 }
 
 @media only screen and (max-width: 301px){
 
-    .btn-1, .btn-2, .btn-3, .btn-4, .btn-5{
+    .btn1, .btn2, .btn3, .btn4, .btn5{
         margin: 0.1rem;
     }
 }
