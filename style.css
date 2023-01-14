@@ -7,7 +7,7 @@ body{
     font-family: Inter;
     font-size: 15px;
 
-    background: hsl(216, 12%, 8%);
+    background-color: hsl(216, 12%, 8%);
 }
 
 .contander{
@@ -29,7 +29,7 @@ body{
 
     border-radius: 2rem;
 
-    background:  hsl(212, 16%, 32%);
+    background-color:  hsl(212, 16%, 32%);
 }
 
 .title{
@@ -62,19 +62,21 @@ body{
     cursor: pointer;
 
     color: hsl(216, 12%, 54%);
-    background: hsl(212, 16%, 32%);
+    background-color: hsl(212, 16%, 32%);
 }
 
 .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover{
     transition: 0.2s;
     
-    background: hsl(25, 97%, 53%);
+    background-color: hsl(216, 12%, 54%);
 
+    color: white;
 }
 
-.btn1:disabled, .btn2:disabled, .btn3:disabled, .btn4:disabled, .btn5:disabled{
-    opacity: 0.4;
-    cursor: default;
+.active {
+    background-color:  hsl(25, 97%, 53%);
+
+    color: white;
 }
 
 .btn{
@@ -91,7 +93,9 @@ body{
 
     cursor: pointer;
 
-    color:  hsl(25, 97%, 53%);
+    background-color:  hsl(25, 97%, 53%);
+
+    color: white;
 }
 
 
