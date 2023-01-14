@@ -1,4 +1,4 @@
-body{
+body {
     display: grid;
     justify-items: center;
 
@@ -10,7 +10,7 @@ body{
     background-color: hsl(216, 12%, 8%);
 }
 
-.contander{
+.container {
     width: 22rem;
 
     padding-left: 1rem;
@@ -20,7 +20,7 @@ body{
     background-color: hsl(213, 19%, 18%);
 }
 
-.star{
+.star {
     height: 1.063rem;
     width: 1.063rem;
 
@@ -32,14 +32,14 @@ body{
     background-color:  hsl(212, 16%, 32%);
 }
 
-.title{
+.title {
     font-size: 1.15rem;
     font-weight: 700;
 
     color: hsl(0, 0%, 100%);
 }
 
-.text{
+.text {
     font-size: 0.85rem;
     font-weight: 400;
 
@@ -47,7 +47,7 @@ body{
 }
 
 
-.btn1, .btn2, .btn3, .btn4, .btn5{
+.btn1, .btn2, .btn3, .btn4, .btn5 {
     height: 3rem;
     width: 3rem;
 
@@ -65,7 +65,7 @@ body{
     background-color: hsl(212, 16%, 32%);
 }
 
-.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover{
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover {
     transition: 0.2s;
     
     background-color: hsl(216, 12%, 54%);
@@ -79,7 +79,7 @@ body{
     color: white;
 }
 
-.btn{
+.btn {
     width: 96%;
     height: 2rem;
 
@@ -100,58 +100,51 @@ body{
 
 
 @media only screen and (max-width: 389px) {
-
-    .contander{
+    .container{
         width: 90%;
 
         padding: 1rem;
     }
 
-    .btn1, .btn2, .btn3, .btn4, .btn5{
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
         width: 2.8rem;
         height: 2.8rem;
     }
     
-    .btn{
+    .btn {
         width: 100%;
         height: 2.5rem;
     }
 }
 
-@media only screen and (max-width: 372px){
-
-    .btn1, .btn2, .btn3, .btn4, .btn5{
+@media only screen and (max-width: 372px) {
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
         height: 2.5rem;
         width: 2.5rem;
         margin: 0.55rem;
     }
-    
 }
 
-@media only screen and (max-width: 354px){
-
-    .btn1, .btn2, .btn3, .btn4, .btn5{
+@media only screen and (max-width: 354px) {
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
         margin: 0.45rem;
     }
 }
 
-@media only screen and (max-width: 336px){
-
-    .btn1, .btn2, .btn3, .btn4, .btn5{
+@media only screen and (max-width: 336px) {
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
         margin: 0.35rem;
     }
 }
 
-@media only screen and (max-width: 319px){
-
-    .btn1, .btn2, .btn3, .btn4, .btn5{
+@media only screen and (max-width: 319px) {
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
         margin: 0.3rem;
     }
 }
 
-@media only screen and (max-width: 301px){
-
-    .btn1, .btn2, .btn3, .btn4, .btn5{
+@media only screen and (max-width: 301px) {
+    .btn1, .btn2, .btn3, .btn4, .btn5 {
         margin: 0.1rem;
     }
 }
