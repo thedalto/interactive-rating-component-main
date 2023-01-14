@@ -13,7 +13,7 @@ body {
 .container {
     width: 22rem;
 
-    padding-left: 1rem;
+    padding: 1rem;
 
     border-radius: 0.75rem;
 
@@ -46,6 +46,12 @@ body {
     color:hsl(216, 12%, 54%);
 }
 
+.button-container {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-between;
+}
 
 .btn1, .btn2, .btn3, .btn4, .btn5 {
     height: 3rem;
@@ -80,7 +86,7 @@ body {
 }
 
 .btn {
-    width: 96%;
+    width: 100%;
     height: 2rem;
 
     border: 0;
@@ -106,10 +112,8 @@ body {
 
 
 @media only screen and (max-width: 389px) {
-    .container{
+    .container {
         width: 90%;
-
-        padding: 1rem;
     }
 
     .btn1, .btn2, .btn3, .btn4, .btn5 {
