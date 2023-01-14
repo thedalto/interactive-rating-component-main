@@ -1,3 +1,4 @@
+const btn = document.querySelector('.btn');
 const btn1 = document.querySelector('.btn1');
 const btn2 = document.querySelector('.btn2');
 const btn3 = document.querySelector('.btn3');
@@ -11,6 +12,27 @@ const BUTTONS = {
   btn4,
   btn5,
 }
+
+function checkIfContainsActiveClass() {
+  let containActive = false;
+
+  for (const key in BUTTONS) {
+    containActive = BUTTONS[key].classList.contains("active");
+    if (containActive) return true;
+  }
+
+  return false;
+}
+
+function goToResult() {
+  const isContained = checkIfContainsActiveClass();
+  if (!isContained) {
+    window.alert("Necessary select an options to realize search.")
+  } else {
+    window.location.href = "./result.html"
+  }
+}
+
 
 function handleInactiveButtons(buttonName) {
   for (const key in BUTTONS) {
@@ -29,6 +51,7 @@ function handleClick(buttonName) {
   handleInactiveButtons(buttonName);
 }
 
+btn.addEventListener('click', goToResult)
 btn1.addEventListener('click', () => handleClick('btn1'))
 btn2.addEventListener('click', () => handleClick('btn2'))
 btn3.addEventListener('click', () => handleClick('btn3'))
