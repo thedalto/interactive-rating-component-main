@@ -1,0 +1,22 @@
+body {
+    display: grid;
+    justify-items: center;
+
+    margin-top: 12rem;
+
+    font-family: Inter;
+    font-size: 15px;
+
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container {
+    width: 22rem;
+
+    padding: 1rem;
+
+    border-radius: 0.75rem;
+
+    background-color: hsl(213, 19%, 18%);
+}
+
