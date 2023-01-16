@@ -28,3 +28,21 @@
 
 
 }
+
+.selected-text{
+    width: 65%;
+
+    margin: auto ;
+    margin-top: 1rem;
+
+    text-align: center;
+
+    font-size: 1rem;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+
+    border-radius: 1rem;
+
+    color: hsl(25, 97%, 53%);
+    background-color:hsl(212, 16%, 32%);
+}
