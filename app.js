@@ -42,15 +42,26 @@ function handleInactiveButtons(buttonName) {
   }
 }
 
+function addDataOnLocalStorage(data) {
+  localStorage.setItem('buttonSelected', JSON.stringify(data))
+}
+
 function handleActive(buttonName) {
   BUTTONS[buttonName].classList.add("active");
+  const buttons = {
+    btn1: 1,
+    btn2: 2,
+    btn3: 3,
+    btn4: 4,
+    btn5: 5
+  }
+  addDataOnLocalStorage(buttons[buttonName])
 }
 
 function handleClick(buttonName) {
   handleActive(buttonName);
   handleInactiveButtons(buttonName);
 }
-
 btn.addEventListener('click', goToResult)
 btn1.addEventListener('click', () => handleClick('btn1'))
 btn2.addEventListener('click', () => handleClick('btn2'))
